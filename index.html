@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieWheel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Navbar -->
+        <div class="nav container">
+            <a href="index.html" class="logo">
+                Movie<span>Wheel</span>
+            </a>
+            <div class="search-box">
+                <input type="search" id="search-input" placeholder="Search movie">
+                <i class='bx bx-search'></i>
+            </div>
+            <a href="#" class="user">
+                <i class='bx bxs-user'></i>
+            </a>
+            <div class="navbar">
+                <a href="#home" class="nav-link nav-active">
+                    <i class='bx bx-home'></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="#popular" class="nav-link">
+                    <i class='bx bxs-hot'></i>
+                    <span class="nav-link-title">Trending</span>
+                </a>
+                <a href="#movies" class="nav-link">
+                    <i class='bx bx-compass'></i>
+                    <span class="nav-link-title">Explore</span>
+                </a>
+                <a href="play-page.html" class="nav-link">
+                    <i class='bx bx-tv'></i>
+                    <span class="nav-link-title">Movies</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-heart'></i>
+                    <span class="nav-link-title">Favourite</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home container" id="home">
+        <img src="img/home-background.png" alt="" class="home-img">
+        <div class="home-text">
+            <h1 class="home-title">Kalki <br /> 2898 AD</h1>
+            <p>Streaming now</p>
+            <a href="play-page.html" class="watch-btn">
+                <i class='bx bx-right-arrow'></i>
+                <span>Watch the trailer</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Popular Section-->
+    <section class="popular container" id="popular">
+        <div class="heading">
+            <h2 class="heading-title">Popular Movies</h2>
+            <div class="swiper-btn">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <div class="popular-content swiper">
+            <div class="swiper-wrapper">
+                <!-- Movie Box 1 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-1.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Barfi</h2>
+                            <span class="movie-type">Romance/Comedy</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie Box 2 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-2.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Animal</h2>
+                            <span class="movie-type">Action/Crime</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie Box 3 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-3.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Shershaah</h2>
+                            <span class="movie-type">Action/Biography</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie Box 4 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-4.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">12th Fail</h2>
+                            <span class="movie-type">Biography/Drama</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie Box 5 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-5.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">RRR</h2>
+                            <span class="movie-type">Action/Adventure</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie Box 6 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-6.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Salaar: Part I - Ceasefire</h2>
+                            <span class="movie-type">Action/Crime</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie Box 7 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-7.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Jawan</h2>
+                            <span class="movie-type">Action/Crime</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie Box 8 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-8.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Fighter</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie Box 9 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-9.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Sita Ramam</h2>
+                            <span class="movie-type">Romance/Action</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie Box 10 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-10.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Pushpa: The Rise - Part 1</h2>
+                            <span class="movie-type">Action/Crime</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie Box 11 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-11.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Dunki</h2>
+                            <span class="movie-type">Adventure</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie Box 12 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-12.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Jai Bhim</h2>
+                            <span class="movie-type">Crime/Mystery</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie Box 13 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-13.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Kantara</h2>
+                            <span class="movie-type">Action/Adventure</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie Box 14 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-14.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Gangubai Kathiawadi</h2>
+                            <span class="movie-type">Biography/Crime</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie Box 15 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-15.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Haseen Dilruba</h2>
+                            <span class="movie-type">Crime/Mystery</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Movie Box 16 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/popular-movie-16.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Masaan</h2>
+                            <span class="movie-type">Drama</span>
+                            <a href="#" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Movies Section -->
+    <section class="movies container" id="movies">
+        <div class="heading">
+            <h2 class="heading-title">Movies and Shows</h2>
+        </div>
+        <div class="movies-content">
+            <!-- Movie Box 1 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/movie-1.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Kalki 2898 AD</h2>
+                        <span class="movie-type">Action/Adventure</span>
+                        <a href="play-page.html" class="watch-btn play-btn">
+                            <i class="bx bx-right-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movie Box 2 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/movie-2.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Munjya</h2>
+                        <span class="movie-type">Horror/Comedy</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class="bx bx-right-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movie Box 3 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/movie-3.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Maidaan</h2>
+                        <span class="movie-type">History/Biography</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class="bx bx-right-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movie Box 4 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/movie-4.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Laapataa Ladies</h2>
+                        <span class="movie-type">Comedy/Drama</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class="bx bx-right-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movie Box 5 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/movie-5.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Srikanth</h2>
+                        <span class="movie-type">Biography/Drama</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class="bx bx-right-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movie Box 6 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/movie-6.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Crew</h2>
+                        <span class="movie-type">Comedy/Drama</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class="bx bx-right-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movie Box 7 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/movie-7.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Teri Baaton Mein Aisa Uljha Jiya</h2>
+                        <span class="movie-type">Comedy/Romance</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class="bx bx-right-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movie Box 8 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/movie-8.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Sam Bahadur</h2>
+                        <span class="movie-type">Biography/War</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class="bx bx-right-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movie Box 9 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/movie-9.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">OMG 2</h2>
+                        <span class="movie-type">Comedy/Drama</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class="bx bx-right-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movie Box 10 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/movie-10.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Tu Jhoothi Main Makkaar</h2>
+                        <span class="movie-type">Comedy/Romance</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class="bx bx-right-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movie Box 11 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/movie-11.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Zara Hatke Zara Bachke</h2>
+                        <span class="movie-type">Comedy/Drama</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class="bx bx-right-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movie Box 12 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/movie-12.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">October</h2>
+                        <span class="movie-type">Drama/Romance</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class="bx bx-right-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movie Box 13 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/movie-13.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Haider</h2>
+                        <span class="movie-type">Action/Crime</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class="bx bx-right-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movie Box 14 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/movie-14.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Soorarai Pottru</h2>
+                        <span class="movie-type">Drama</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class="bx bx-right-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movie Box 15 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/movie-15.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Amar Singh Chamkila</h2>
+                        <span class="movie-type">Biography/Music</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class="bx bx-right-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Movie Box 16 -->
+            <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/movie-16.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Kedarnath</h2>
+                        <span class="movie-type">Drama/Romance</span>
+                        <a href="#" class="watch-btn play-btn">
+                            <i class="bx bx-right-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Next Page -->
+    <div class="next-page">
+        <a href="#" class="next-btn">Next Page</a>
+    </div>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; MovieWheel. All Rights Reserved.</p>
+    </div>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
